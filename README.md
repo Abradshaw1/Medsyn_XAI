@@ -12,13 +12,13 @@ This repository provides tools for generating synthetic CT volumes from text pro
 These are a cleaned up version of the jetstream except for the stage1.py
 
 ### Files:
-- **`RunModel.ipynb`** – Runs inference using a text-to-CT model and optionally overlays saliency heatmaps.
-- **`extract_text.py`** – Uses a pretrained BERT-style model to extract token embeddings from a radiology report.
-- **`dataloader.py`** – Prepares and transforms imaging/text data using MONAI and PyTorch tools.
-- **`text.py`** – Tokenizes and embeds free-text inputs for conditional inference.
-- **`token_avg_vis.ipynb`** – Loads saved attention/saliency maps and visualizes token-level averages, more in temp.
-- **`temp.ipynb`** – Prototype/debugging notebook for quick testing and experiments of the word to volume mapping.
-- **`stage1.py`** – main scritpt responsible for sampling and diffusion process
+- `RunModel.ipynb` – Runs inference using a text-to-CT model and optionally overlays saliency heatmaps.
+- `extract_text.py` – Uses a pretrained BERT-style model to extract token embeddings from a radiology report.
+- `dataloader.py` – Prepares and transforms imaging/text data using MONAI and PyTorch tools.
+- `text.py` – Tokenizes and embeds free-text inputs for conditional inference.
+- `token_avg_vis.ipynb` – Loads saved attention/saliency maps and visualizes token-level averages, more in temp.
+- `temp.ipynb` – Prototype/debugging notebook for quick testing and experiments of the word to volume mapping.
+- `stage1.py` – main scritpt responsible for sampling and diffusion process
 
 ---
 
