@@ -17,7 +17,7 @@ These are a cleaned up version of the jetstream except for the stage1.py
 - **`dataloader.py`** – Prepares and transforms imaging/text data using MONAI and PyTorch tools.
 - **`text.py`** – Tokenizes and embeds free-text inputs for conditional inference.
 - **`token_avg_vis.ipynb`** – Loads saved attention/saliency maps and visualizes token-level averages.
-- **`temp.ipynb`** – Prototype/debugging notebook for quick testing and experiments.
+- **`temp.ipynb`** – Prototype/debugging notebook for quick testing and experiments of the word to volume mapping.
 - **`stage1.py`** – main scritpt responsible for sampling and diffusion process
 
 ---
