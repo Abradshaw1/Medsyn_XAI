@@ -53,7 +53,7 @@ This script is the core logic for the NER pipeline.
 
 #### `NER_stage1`
 - basically same as the original stage 1 but you can  hook the NER script just handle the imag volumes post-hoc.
-- Raw output from the **first stage** of NER preprocessing.
+- Raw output from the first stage of NER preprocessing.
 - Token-to-label mappins before final filtering or aggregation.
 - Used to decouple preprocessing from sampling—for instance, NER labels can be cached early and later reused without recomputation.
 
